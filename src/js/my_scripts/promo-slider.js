@@ -107,7 +107,7 @@ var promoSlider = (function() {
 			timer = setTimeout(function play() {
 				$('.slider-promo__arrow--right').trigger('click');
 				timerId = setTimeout(play, 3000);
-			}, 0);
+			}, 3000);
 		},
 
 		clearTimer: function(){
